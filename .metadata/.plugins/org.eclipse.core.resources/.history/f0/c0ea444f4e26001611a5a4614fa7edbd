@@ -1,0 +1,30 @@
+
+public class Polynomial {
+	private Term terms[];
+	private int position;
+	public Polynomial() {
+		super();
+		terms = new Term[3];
+		
+		for (Term term : terms) {
+			term = new Term();
+		}
+		
+		
+		
+	}
+	
+	
+	public void setTerm(int a, int b){
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

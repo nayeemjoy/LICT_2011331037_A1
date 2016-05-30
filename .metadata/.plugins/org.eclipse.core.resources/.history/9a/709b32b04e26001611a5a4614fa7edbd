@@ -1,0 +1,41 @@
+
+public class Polynomial {
+	private Term terms[];
+	private int position;
+	public Polynomial() {
+		super();
+		terms = new Term[3];
+		
+		for (Term term : terms) {
+			term = new Term();
+		}
+		
+		
+		
+	}
+	
+	
+	public void setTerm(int coeff, int exp){
+		if(position == terms.length){
+			System.out.println("Array size Limit Exceeded");
+			return;
+		}
+		if(exp < 0){
+			System.out.println("Exponent is Negative");
+			return;
+		}
+		
+		terms[position].setCoefficient(coeff);
+		terms[position].setExponent(exp);
+		position += 1;
+		return;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

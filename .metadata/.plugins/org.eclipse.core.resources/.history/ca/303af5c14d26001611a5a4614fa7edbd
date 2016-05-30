@@ -1,0 +1,22 @@
+
+public class Polynomial {
+	private Term terms[];
+
+	public Polynomial() {
+		super();
+		terms = new Term[3];
+		
+		for (Term term : terms) {
+			term = new Term();
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}
