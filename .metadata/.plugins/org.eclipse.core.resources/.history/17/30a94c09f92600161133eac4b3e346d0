@@ -1,0 +1,53 @@
+
+public class Complex {
+	private float real;
+	private float imag;
+	
+	
+	public Complex() {
+		super();
+		
+		this.real = 0f;
+		this.imag = 0f;
+	}
+	public Complex(float real, float imag) {
+		this.real = real;
+		this.imag = imag;
+	}
+	public float getReal() {
+		return real;
+	}
+	public void setReal(float real) {
+		this.real = real;
+	}
+	public float getImag() {
+		return imag;
+	}
+	public void setImag(float imag) {
+		this.imag = imag;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public void add(Complex complex) {
+		System.out.print("Sum of ");
+		float x,y;
+		x = this.real + complex.real;
+		y = this.imag + complex.imag;
+		System.out.print(this.real +" + "+ this.imag+"i & ");
+		System.out.print(this.real +" + "+ this.imag+"i is : ");
+		System.out.println(x +" + "+ y);
+	}
+	public void subtract(Complex complex) {
+		System.out.print("Subtraction of ");
+		float x,y;
+		x = this.real - complex.real;
+		y = this.imag - complex.imag;
+		System.out.print(this.real +" + "+ this.imag+"i & ");
+		System.out.print(this.real +" + "+ this.imag+"i is : ");
+		System.out.println(x +" + "+ y);
+	}
+	
+}

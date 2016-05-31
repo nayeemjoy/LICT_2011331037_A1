@@ -1,0 +1,6 @@
+
+public class Matrix {
+	private int[][]  array = new int[10][10];
+	private int rows;
+	private int columns;
+}
