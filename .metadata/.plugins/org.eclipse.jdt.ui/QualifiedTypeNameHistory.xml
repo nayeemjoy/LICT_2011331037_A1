@@ -6,4 +6,7 @@
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="Polynomial"/>
+<fullyQualifiedTypeName name="Matrix"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="Complex"/>
 </qualifiedTypeNameHistroy>
